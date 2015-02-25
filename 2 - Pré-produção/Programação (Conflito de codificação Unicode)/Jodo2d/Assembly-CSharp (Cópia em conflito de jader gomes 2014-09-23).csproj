@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E8F31052-270B-8F48-AD29-C55819FBFD8D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AjustaVolume.cs" />
+     <Compile Include="Assets\Scripts\AjustarPlanoDeFundo.cs" />
+     <Compile Include="Assets\Scripts\AjustesDeImagem.cs" />
+     <Compile Include="Assets\Scripts\ArrowsSet.cs" />
+     <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\Coisas.cs" />
+     <Compile Include="Assets\Scripts\FailTextMinigame1.cs" />
+     <Compile Include="Assets\Scripts\Gerador.cs" />
+     <Compile Include="Assets\Scripts\Gerenciador.cs" />
+     <Compile Include="Assets\Scripts\ItemColetavel.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Minigame.cs" />
+     <Compile Include="Assets\Scripts\Pedra.cs" />
+     <Compile Include="Assets\Scripts\PlataformaMovel.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerTouch.cs" />
+     <Compile Include="Assets\Scripts\Points.cs" />
+     <Compile Include="Assets\Scripts\Recorde.cs" />
+     <Compile Include="Assets\Scripts\ResetMinigame1.cs" />
+     <Compile Include="Assets\Scripts\StartMinigame1.cs" />
+     <Compile Include="Assets\Scripts\SwipeDetector.cs" />
+     <Compile Include="Assets\Scripts\TimerText.cs" />
+     <Compile Include="Assets\Scripts\inimigo.cs" />
+     <Compile Include="Assets\Scripts\lifes.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\Agua.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\Bomba.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\WaitMe.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\life.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\ponto.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\touch.cs" />
+     <Compile Include="Assets\Scripts\nao utilizados mais\touch2.cs" />
+     <Compile Include="Assets\Scripts\pontos.cs" />
+     <Compile Include="Assets\Scripts\resetGame.cs" />
+     <Compile Include="Assets\Scripts\startGame.cs" />
+     <Compile Include="Assets\Scripts\vetorDeImagens.cs" />
+     <Compile Include="Assets\Scripts\video.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

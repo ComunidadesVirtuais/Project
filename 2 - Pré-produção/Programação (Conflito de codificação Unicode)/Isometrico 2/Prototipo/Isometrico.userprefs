@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Isometrico\AIPather.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Isometrico\AIPather.cs" Line="87" Column="7" />
+      <File FileName="Assets\Scripts\Isometrico\DraggableItemInventory.cs" Line="42" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

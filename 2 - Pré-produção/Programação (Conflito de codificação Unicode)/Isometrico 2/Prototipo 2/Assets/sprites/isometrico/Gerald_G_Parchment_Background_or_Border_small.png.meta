@@ -1,0 +1,93 @@
+fileFormatVersion: 2
+guid: d4ad990310850ee4d8befba0f54dad5f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gerald_G_Parchment_Background_or_Border_small_0
+    21300002: Gerald_G_Parchment_Background_or_Border_small_1
+    21300004: Gerald_G_Parchment_Background_or_Border_small_2
+    21300006: Gerald_G_Parchment_Background_or_Border_small_3
+    21300008: Gerald_G_Parchment_Background_or_Border_small_4
+    21300010: Gerald_G_Parchment_Background_or_Border_small_5
+    21300012: Gerald_G_Parchment_Background_or_Border_small_6
+    21300014: Gerald_G_Parchment_Background_or_Border_small_7
+    21300016: Gerald_G_Parchment_Background_or_Border_small_8
+    21300018: Gerald_G_Parchment_Background_or_Border_small_9
+    21300020: Gerald_G_Parchment_Background_or_Border_small_10
+    21300022: Gerald_G_Parchment_Background_or_Border_small_11
+    21300024: Gerald_G_Parchment_Background_or_Border_small_12
+    21300026: Gerald_G_Parchment_Background_or_Border_small_13
+    21300028: Gerald_G_Parchment_Background_or_Border_small_14
+    21300030: Gerald_G_Parchment_Background_or_Border_small_15
+    21300032: Gerald_G_Parchment_Background_or_Border_small_16
+    21300034: Gerald_G_Parchment_Background_or_Border_small_17
+    21300036: Gerald_G_Parchment_Background_or_Border_small_18
+    21300038: Gerald_G_Parchment_Background_or_Border_small_19
+    21300040: Gerald_G_Parchment_Background_or_Border_small_20
+    21300042: Gerald_G_Parchment_Background_or_Border_small_21
+    21300044: Gerald_G_Parchment_Background_or_Border_small_22
+    21300046: Gerald_G_Parchment_Background_or_Border_small_23
+    21300048: Gerald_G_Parchment_Background_or_Border_small_24
+    21300050: Gerald_G_Parchment_Background_or_Border_small_25
+    21300052: Gerald_G_Parchment_Background_or_Border_small_26
+    21300054: Gerald_G_Parchment_Background_or_Border_small_27
+    21300056: Gerald_G_Parchment_Background_or_Border_small_28
+    21300058: Gerald_G_Parchment_Background_or_Border_small_29
+    21300060: Gerald_G_Parchment_Background_or_Border_small_30
+    21300062: Gerald_G_Parchment_Background_or_Border_small_31
+    21300064: Gerald_G_Parchment_Background_or_Border_small_32
+    21300066: Gerald_G_Parchment_Background_or_Border_small_33
+    21300068: Gerald_G_Parchment_Background_or_Border_small_34
+    21300070: Gerald_G_Parchment_Background_or_Border_small
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gerald_G_Parchment_Background_or_Border_small_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 601
+        height: 500
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

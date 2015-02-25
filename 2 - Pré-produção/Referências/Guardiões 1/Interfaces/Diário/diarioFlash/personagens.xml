@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Personagens>
+	<Personagem>
+	    <Nome><![CDATA[Macaco]]></Nome>
+		<Descricao><![CDATA[Pula de galho em galho]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+	<Personagem>
+	    <Nome><![CDATA[Sapo]]></Nome>
+		<Descricao><![CDATA[Pula no lago]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+	<Personagem>
+	    <Nome><![CDATA[Saci]]></Nome>
+		<Descricao><![CDATA[Pula de um pe]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+	<Personagem>
+	    <Nome><![CDATA[Cobra]]></Nome>
+		<Descricao><![CDATA[Venenosa]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+	<Personagem>
+	    <Nome><![CDATA[Leao]]></Nome>
+		<Descricao><![CDATA[Rei da floresta]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+	<Personagem>
+	    <Nome><![CDATA[Mico leao]]></Nome>
+		<Descricao><![CDATA[Primo do Macaco]]></Descricao>
+		<Imagem miniatura="" foto="" />
+	</Personagem>
+</Personagens>

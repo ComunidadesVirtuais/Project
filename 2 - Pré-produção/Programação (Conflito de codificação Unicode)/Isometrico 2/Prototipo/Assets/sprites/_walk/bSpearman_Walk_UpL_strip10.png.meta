@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: f99f0e8067ec14a219c32c99b74a4261
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bSpearman_Walk_UpL_strip10_0
+    21300002: bSpearman_Walk_UpL_strip10_1
+    21300004: bSpearman_Walk_UpL_strip10_2
+    21300006: bSpearman_Walk_UpL_strip10_3
+    21300008: bSpearman_Walk_UpL_strip10_4
+    21300010: bSpearman_Walk_UpL_strip10_5
+    21300012: bSpearman_Walk_UpL_strip10_6
+    21300014: bSpearman_Walk_UpL_strip10_7
+    21300016: bSpearman_Walk_UpL_strip10_8
+    21300018: bSpearman_Walk_UpL_strip10_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bSpearman_Walk_UpL_strip10_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2
+        width: 145
+        height: 131
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 144
+        height: 131
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1
+        width: 140
+        height: 131
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_4
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 6
+        width: 134
+        height: 129
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 12
+        width: 143
+        height: 123
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_6
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 9
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_7
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 6
+        width: 143
+        height: 136
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_8
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 6
+        width: 143
+        height: 130
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bSpearman_Walk_UpL_strip10_9
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 11
+        width: 138
+        height: 123
+      alignment: 9
+      pivot: {x: .649999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

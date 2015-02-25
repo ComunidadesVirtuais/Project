@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Desktop\Isometrico\Isometrico\Assets\Scripts\AIPather.cs">
+    <Files>
+      <File FileName="..\..\..\..\..\Desktop\Isometrico\Isometrico\Assets\Scripts\SwipeDetector.cs" Line="70" Column="54" />
+      <File FileName="..\..\..\..\..\Desktop\Isometrico\Isometrico\Assets\Scripts\AIPather.cs" Line="35" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 7c12d2034d1a7be4f848952dc9a51eaf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Untitled-3_0
+    21300002: Untitled-3_1
+    21300004: Untitled-3_2
+    21300006: Untitled-3_3
+    21300008: Untitled-3_4
+    21300010: Untitled-3_5
+    21300012: Untitled-3_6
+    21300014: Untitled-3_7
+    21300016: Untitled-3_8
+    21300018: Untitled-3_9
+    21300020: Untitled-3_10
+    21300022: Untitled-3_11
+    21300024: Untitled-3_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Untitled-3_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 12
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 12
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 12
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 12
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 12
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 12
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_7
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 12
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_8
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 12
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_9
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 12
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_10
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 13
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 14
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Untitled-3_12
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 15
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

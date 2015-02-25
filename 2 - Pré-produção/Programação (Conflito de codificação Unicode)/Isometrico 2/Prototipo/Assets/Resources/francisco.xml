@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<propriedades>
+		<cor_texto>
+			<red>0</red>
+			<green>0</green>
+			<blue>0</blue>
+		</cor_texto>
+		<nome>Francisco</nome>
+		<fase>1</fase>
+	</propriedades>
+	
+	<dialogos>
+		<dialogo nome="inicial" tipo="falas">
+			<falas>
+				<fala personagem="Player">Olá! Gostaria de pegar esse trem! Como faço?</fala>
+				<fala personagem="npc">Vejo que você tem uma chave, então vamos lá!</fala>
+			</falas>
+			<acoes>
+				<acao tipo="variavel" nome="fase1.joaquina.inicial" valor="1"/>
+				<acao tipo="ir_para_fase" nome="5"/>
+				<acao tipo="encerrar_dialogo"/>
+			</acoes>
+		</dialogo>
+	</dialogos>
+	
+	<eventos>
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor=""/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="inicial"/>
+			</acoes>
+		</interacao>
+		
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor="1"/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="options"/>
+			</acoes>
+		</interacao>
+	</eventos>
+</data>

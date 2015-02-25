@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<propriedades>
+		<cor_texto>
+			<red>255</red>
+			<green>255</green>
+			<blue>255</blue>
+		</cor_texto>
+		<nome>Joaquina</nome>
+		<fase>1</fase>
+	</propriedades>
+	
+	<dialogos>
+		<dialogo nome="inicial" tipo="falas">
+			<falas>
+				<fala personagem="Player">Olá! Tudo bem?</fala>
+				<fala personagem="npc">Tudo ótimo, e com você?</fala>				
+				<fala personagem="Player">De boa na lagoa! :-D</fala>
+				<fala personagem="npc">Uma boa semana pra você então!</fala>
+			</falas>
+			<acoes>
+				<acao tipo="variavel" nome="fase1.joaquina.inicial" valor="1"/>
+				<acao tipo="iniciar_dialogo" dialogo="options"/><!-- Abre opções de diálogo. -->
+			</acoes>
+		</dialogo>
+		
+		<dialogo nome="options" tipo="opcoes">
+			<opcoes>
+				<opcao>
+					<texto>Vamos jogar algo? Estou entediado.</texto>
+					<acoes>
+						<acao tipo="iniciar_dialogo" dialogo="p1"/><!-- Inicia o dialogo p1. -->
+					</acoes>
+					<condicoes>
+						<condicao tipo="variavel" nome="fase1.joaquina.dialogo1" valor=""/>
+					</condicoes>
+				</opcao>
+				
+				<opcao>
+					<texto>Até mais!</texto>
+					<acoes>
+						<acao tipo="adicionar_hipertexto" nome ="Ppk"/>
+						<acao tipo="encerrar_dialogo"/>
+					</acoes>
+					<condicoes>
+						<condicao tipo="variavel" nome="fase1.joaquina.dialogo4" valor=""/>
+					</condicoes>
+				</opcao>
+			</opcoes>
+		</dialogo>
+		
+		<dialogo nome="p1" tipo="falas">
+			<falas>
+				<fala personagem="npc">
+					Isso lhe custará 5 moedas.
+				</fala>
+				<fala personagem="Player">
+					Tudo bem, sou RYCA!
+				</fala>
+			</falas>
+			<acoes>
+				<acao tipo="iniciar_minigame" nome="2" valor="5"/>
+				<acao tipo="encerrar_dialogo"/>
+			</acoes>
+		</dialogo>
+	</dialogos>
+	
+	<eventos>
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor=""/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="inicial"/>
+			</acoes>
+		</interacao>
+		
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor="1"/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="options"/>
+			</acoes>
+		</interacao>
+	</eventos>
+</data>

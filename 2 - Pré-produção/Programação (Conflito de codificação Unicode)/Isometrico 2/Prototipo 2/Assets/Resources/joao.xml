@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<propriedades>
+		<cor_texto>
+			<red>255</red>
+			<green>255</green>
+			<blue>0</blue>
+		</cor_texto>
+		<nome>Joao</nome>
+		<fase>1</fase>
+	</propriedades>
+	
+	<dialogos>
+		<dialogo nome="inicial" tipo="falas">
+			<falas>
+				<fala personagem="Player">Olá! Como posso sair daqui?</fala>
+				<fala personagem="npc">Olá, jovem. Estou com fome, traga uma fruta pra mim que eu posso ver o que posso fazer.</fala>				
+				<fala personagem="Player">Ok.</fala>
+			</falas>
+			<acoes>
+				<acao tipo="encerrar_dialogo"/>
+			</acoes>
+		</dialogo>
+		
+		<dialogo nome="segundo" tipo="falas">
+			<falas>
+				<fala personagem="npc">Eba, uma fruta! Em troca te levarei para um lugar mágico.</fala>
+			</falas>
+			<acoes>
+				<acao tipo="ir_para_fase" nome="7"/>
+				<acao tipo="encerrar_dialogo"/>
+			</acoes>
+		</dialogo>
+	</dialogos>
+	
+	<eventos>
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor=""/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="inicial"/>
+			</acoes>
+		</interacao>
+		
+		<interacao>
+			<condicoes>
+				<condicao tipo="variavel" nome="fase1.joaquina.inicial" valor="1"/>
+			</condicoes>
+			<acoes>
+				<acao tipo="iniciar_dialogo" dialogo="segundo"/>
+			</acoes>
+		</interacao>
+	</eventos>
+</data>
