@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1F039F05-BC0B-9C9C-C769-F71AF3EA2EC5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Barra.cs" />
+     <Compile Include="Assets\CalculaAngle.cs" />
+     <Compile Include="Assets\Fenda.cs" />
+     <Compile Include="Assets\GeraItensMG5.cs" />
+     <Compile Include="Assets\ItemMG5.cs" />
+     <Compile Include="Assets\Minigame1\scripts\ChangePlace.cs" />
+     <Compile Include="Assets\Minigame1\scripts\Contador.cs" />
+     <Compile Include="Assets\Minigame1\scripts\Emissor.cs" />
+     <Compile Include="Assets\Minigame1\scripts\Mapa.cs" />
+     <Compile Include="Assets\Minigame1\scripts\Pontuacao.cs" />
+     <Compile Include="Assets\Minigame1\scripts\esteira.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\ArrowController.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\ButtonPressed.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Cadeado.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Gerenciador.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Gerenciador2.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\GerenciadorGeral.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\LifeGaiola.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\MapaMG2.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Minigame.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Points.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\PontosMiniGameArrows.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\SwipeDetector.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\TimerText.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\Timing.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\ToqueBotao.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\VariaveisMG1.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\VariaveisMG2.cs" />
+     <Compile Include="Assets\Minigame2\Scripts\VariaveisMG3.cs" />
+     <Compile Include="Assets\Minigame3\Scripts\Caixa.cs" />
+     <Compile Include="Assets\Minigame3\Scripts\MapaCaixas.cs" />
+     <Compile Include="Assets\Minigame3\Scripts\PontosMiniGame3.cs" />
+     <Compile Include="Assets\Minigame4\Scripts\GeraItens.cs" />
+     <Compile Include="Assets\Minigame4\Scripts\Item.cs" />
+     <Compile Include="Assets\Minigame4\Scripts\MapaMinigame4.cs" />
+     <Compile Include="Assets\Minigame4\Scripts\PontuacaoMG4.cs" />
+     <Compile Include="Assets\Minigame5\Scripts\MapaMinigame5.cs" />
+     <Compile Include="Assets\Minigame5\Scripts\PontuacaoMG5.cs" />
+     <Compile Include="Assets\Movimento.cs" />
+     <Compile Include="Assets\Quadros\scripts\AjusteDeImagens.cs" />
+     <Compile Include="Assets\Quadros\scripts\ArrowsSet.cs" />
+     <Compile Include="Assets\Quadros\scripts\Camera4.cs" />
+     <Compile Include="Assets\Quadros\scripts\FailTextMinigame1.cs" />
+     <Compile Include="Assets\Quadros\scripts\Gaiolas.cs" />
+     <Compile Include="Assets\Quadros\scripts\Init.cs" />
+     <Compile Include="Assets\Quadros\scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Quadros\scripts\ResetMinigame1.cs" />
+     <Compile Include="Assets\Quadros\scripts\StartMinigame1.cs" />
+     <Compile Include="Assets\Relatorio\Scripts\Botao.cs" />
+     <Compile Include="Assets\Relatorio\Scripts\Linha.cs" />
+     <Compile Include="Assets\Relatorio\Scripts\Relatorio.cs" />
+     <Compile Include="Assets\TrocaMapaMG5.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
